@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+display :flex;
+justify-content : center;
+align-items : center;
+flex-direction: column;
+height : 100vh;
+background: #660135;
+background: -webkit-linear-gradient(bottom, #660135, #010A44);
+background: -moz-linear-gradient(bottom, #660135, #010A44);
+background: linear-gradient(to top, #660135, #010A44);
+}
+
+.zone,.temperature,.description{
+    font-size :xx-large;
+    width : 40vw;
+    display: flex;
+    justify-content : space-around;
+    font-family: 'Poppins', sans-serif;
+    color:aliceblue;
+    align-items: center;
+
+}
+
+.temperature{
+    justify-content: center;
+}
+.degree{
+    font-size :x-large
+}
+.spacer{
+    height : 10vh;
+}
+
+.search-text{
+    width : 30vw;
+    background: rgba(255, 255, 255, 0);
+    border : none;
+    color: aliceblue;
+ 
+}
+
+input[type="text"].search-text::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .searchDiv{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color : white;
+    width : 40vw;
+
+
+  }
